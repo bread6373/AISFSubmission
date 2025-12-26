@@ -34,4 +34,4 @@ The primary goal of this project is to train a Bipedal Walker to be able to walk
         └── tempCodeRunnerFile.py
 
 3. Features & Reward Design
-The main reward design is 
+The first thing that I did was create a PPO algorithm for the Normal difficulty Bipedal Walker environment. There were no obstacles so the walker just had to learn how to walk without falling
