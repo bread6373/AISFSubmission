@@ -52,7 +52,7 @@ After solving the easy mode and changing the environment to the hardcore environ
 3) gae lambda: I increased the gae lambda value, which makes it prioritize more long-term strategies instead of just the short term
 4) total timesteps: This simply allowed the walker to train for much longer periods of time
 
-<img src="Screenshots/screenshot_normal.png" width="500" alt="screenshot">
+![screenshot](Screenshots/screenshot_normal.png)
 
 Eventually, the walker started walking. However, it would not be able to pass holes or walls consistently. Therefore, I started rewarding the walker if it was able to succesfully traverse holes or obstacles after previously detecting it with its LIDAR. After training the walker for millions of time steps, the walker could now consistently clear holes and lower level obstacles.
 
