@@ -4,6 +4,7 @@
 The primary goal of this project is to train a Bipedal Walker to be able to walk a short distance to the right. To make it harder, obstacles and holes may be added to increase the difficulty. This uses Reinforcment Learning (RL) and a Proximal Policy Optimization (PPO) to train the walker. The algorithm is implemente with a custom reward function and the stable-baselines3 library in Python.
 
 2. Directory Tree
+```
 ├── FinalRecordings
 │   ├── Hardcore
 │   │   ├── best_reach_end.mov
@@ -32,6 +33,7 @@ The primary goal of this project is to train a Bipedal Walker to be able to walk
         ├── bipedal_tuning1.gif
         ├── bipedal_tuning1.py
         └── tempCodeRunnerFile.py
+```
 
 3. Features & Reward Design
 The first thing that I did was create a PPO algorithm for the Normal difficulty Bipedal Walker environment. There were no obstacles so the walker just had to learn how to walk without falling
