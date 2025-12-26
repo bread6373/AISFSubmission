@@ -1,6 +1,8 @@
 # AISFSubmission
 
-1. Description and Goal of the Project
+------------------------------------------------
+1\. Description and Goal of the Project
+------------------------------------------------
 The primary goal of this project is to train a Bipedal Walker to be able to walk a short distance to the right. To make it harder, obstacles and holes may be added to increase the difficulty. This uses Reinforcment Learning (RL) and a Proximal Policy Optimization (PPO) to train the walker. The algorithm is implemente with a custom reward function and the stable-baselines3 library in Python.
 
 2. Directory Tree
