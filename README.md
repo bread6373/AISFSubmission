@@ -63,3 +63,8 @@ Eventually, the walker started walking. However, it would not be able to pass ho
 ------------------------------------------------
 
 I conducted ablation studies to compare the impact of each change. It appears that the changes to rewarding successful use of the LIDAR to bypass obstacles was a significantly important step in the walker's abilities. However, the walker may still be moving too fast and sometimes gets its legs stuck on larger obstacles or cannot react to a hole in time. Additionally, the walker gained the habit of raising its legs even on flat terrain which lowers its overall stability. Therefore, these would be something that I would continue to work on if I had more time.
+
+------------------------------------------------
+5\. TensorFlow Graphs
+------------------------------------------------
+<img src="Screenshots/tensorflow.png" width="350" alt="tensorflow">
