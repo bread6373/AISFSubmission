@@ -67,4 +67,5 @@ I conducted ablation studies to compare the impact of each change. It appears th
 ------------------------------------------------
 5\. TensorFlow Graphs
 ------------------------------------------------
+After running tensorboard --logdir ./ppo_hardcore_scratch/, I was able to get my TensorFlow graphs
 <img src="Screenshots/tensorflow.png" width="350" alt="tensorflow">
