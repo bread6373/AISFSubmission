@@ -60,7 +60,7 @@ if __name__ == "__main__":
         clip_range=0.2,
         ent_coef=0.03,        # PRO TIP: Higher entropy encourages exploration
         verbose=1,
-        tensorboard_log="./ppo_hardcore_lidar/", # tensorboard --logdir ./ppo_hardcore_scratch/
+        tensorboard_log="./ppo_hardcore_lidar/", # tensorboard --logdir ./ppo_hardcore_lidar/
         policy_kwargs=dict(net_arch=dict(pi=[400, 300], vf=[400, 300]))
     )
 
